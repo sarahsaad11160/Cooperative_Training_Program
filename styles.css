@@ -1,0 +1,115 @@
+/* الأنماط الأساسية */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #e0f7fa; /* لون خلفية بارد */
+    color: #333;
+}
+
+/* رأس الصفحة */
+header {
+    background: #0277bd; /* لون أزرق بارد */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#language-toggle {
+    background: #81d4fa;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* قسم الرئيسية */
+.hero {
+    background: #4dd0e1; /* لون أزرق فاتح */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* قسم من نحن */
+#about, #lessons, #tools, #course-roadmap {
+    padding: 20px;
+    text-align: center;
+    background: #b2ebf2; /* لون أزرق فاتح */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* قسم الدروس */
+.lesson {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 2px solid #81d4fa;
+    border-radius: 10px;
+}
+
+.lesson h3 {
+    margin: 0 0 10px 0;
+}
+
+/* زر الإرسال */
+button {
+    background: #0277bd; /* لون أزرق بارد */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #01579b;
+}
+
+/* تذييل الصفحة */
+footer {
+    background: #0277bd; /* لون أزرق بارد */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* استجابة التصميم */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
